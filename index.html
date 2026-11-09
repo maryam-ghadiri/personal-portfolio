@@ -1,308 +1,775 @@
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fff9f2">
-  <meta name="description" content="وب‌سایت شخصی مریم قدیری، توسعه‌دهنده فرانت‌اند">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Maryam Ghadiri | Front-End Developer</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="description" content="پورتفولیو مریم قدیری، توسعه‌دهنده فرانت‌اند، شامل مهارت‌ها، پروژه‌ها و گواهینامه‌های فنی.">
+
+  <!-- Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg modern-navbar">
     <div class="container">
-      <a class="navbar-brand" href="#home" aria-label="Maryam home">Maryam<span>.</span></a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      <a class="navbar-brand" href="#home" aria-label="Maryam home">
+        Maryam<span>.</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
         aria-label="باز کردن منو">
+
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
+
         <ul class="navbar-nav mx-auto nav-menu" id="navMenu">
+
           <span class="nav-indicator" aria-hidden="true"></span>
-          <li class="nav-item"><a class="nav-link active" href="#home">خانه</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">درباره من</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">مهارت‌ها</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">پروژه‌ها</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">تماس</a></li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">خانه</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">درباره من</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">مهارت‌ها</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">گواهینامه‌ها</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">پروژه‌ها</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">تماس</a>
+          </li>
+
         </ul>
       </div>
     </div>
   </nav>
 
+
   <main>
+
     <!-- HERO -->
     <section class="hero" id="home">
+
       <div class="container">
+
         <div class="row align-items-center gy-5">
+
           <div class="col-lg-7 hero-content">
-            <span class="hero-label">HELLO, I'M MARYAM </span>
-            <h1>خلاقیت در کد،<br><span>زیبایی در طراحی.</span></h1>
+
+            <span class="hero-label">
+              FRONT-END DEVELOPER | MY PORTFOLIO
+            </span>
+
+            <h1>
+              ایده‌ها را به<br>
+              <span>تجربه‌های دیجیتال تبدیل می‌کنم.</span>
+            </h1>
+
             <p class="hero-description">
-              توسعه‌دهنده فرانت‌اند و علاقه‌مند به ساخت تجربه‌های دیجیتال
-              زیبا، تعاملی و کاربردی.
+              توسعه‌دهنده فرانت‌اند و علاقه‌مند به طراحی و ساخت
+              رابط‌های کاربری مدرن، زیبا و کاربردی.
             </p>
+
             <div class="hero-buttons">
-              <a href="#projects" class="btn btn-primary-custom">مشاهده پروژه‌ها <span aria-hidden="true">↙</span></a>
-              <a href="#contact" class="btn btn-outline-custom">ارتباط با من</a>
+
+              <a href="#projects" class="btn btn-primary-custom">
+                مشاهده پروژه‌ها
+                <span aria-hidden="true">↙</span>
+              </a>
+
+              <a href="#contact" class="btn btn-outline-custom">
+                ارتباط با من
+              </a>
+
             </div>
+
           </div>
 
+
+          <!-- HERO ART -->
           <div class="col-lg-5">
+
             <div class="hero-art" aria-label="تصویرسازی کدنویسی">
+
               <div class="art-orbit orbit-one"></div>
               <div class="art-orbit orbit-two"></div>
-              <div class="main-shape"><span>&lt;/&gt;</span></div>
-              <div class="floating-card card-one">HTML <b>5</b></div>
-              <div class="floating-card card-two">CSS <b>✨</b></div>
-              <div class="floating-card card-three">JavaScript <b>JS</b></div>
-              <div class="floating-card card-four">Bootstrap <b>B</b></div>
+
+              <div class="main-shape">
+                <span>&lt;/&gt;</span>
+              </div>
+
+              <div class="floating-card card-one">
+                HTML <b>5</b>
+              </div>
+
+              <div class="floating-card card-two">
+                CSS <b>✨</b>
+              </div>
+
+              <div class="floating-card card-three">
+                JavaScript <b>JS</b>
+              </div>
+
+              <div class="floating-card card-four">
+                Bootstrap <b>B</b>
+              </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
-      <a class="scroll-cue" href="#about" aria-label="رفتن به بخش درباره من">↓</a>
+
+      <a class="scroll-cue" href="#about"
+        aria-label="رفتن به بخش درباره من">↓</a>
+
     </section>
+
 
     <!-- ABOUT -->
     <section id="about" class="section about-section">
+
       <div class="container">
+
         <div class="section-heading">
-          <span class="section-kicker">یک معرفی کوتاه</span>
-          <h2>درباره <span>من</span></h2>
-          <p>علاقه‌مند به یادگیری، ساختن و تبدیل ایده‌ها به تجربه‌های وب.</p>
+
+          <span class="section-kicker">
+            آشنایی بیشتر با من
+          </span>
+
+          <h2>
+            درباره <span>من</span>
+          </h2>
+
+          <p>
+            مسیر من از علاقه به طراحی تا خلق تجربه‌های دیجیتال.
+          </p>
+
         </div>
+
+
         <div class="about-card">
-          <div class="about-mark" aria-hidden="true">M.</div>
-          <div>
-            <h3>سلام، من مریم هستم.</h3>
-            <p>من در مسیر یادگیری توسعه فرانت‌اند هستم و از طراحی رابط‌های کاربری زیبا و ساخت صفحات وب لذت می‌برم. هدفم این است که با تمرین و ساخت پروژه‌های واقعی، تجربه‌های دیجیتال ساده، جذاب و کاربردی خلق کنم.</p>
+
+          <div class="about-mark" aria-hidden="true">
+            M.
           </div>
+
+          <div>
+
+            <h3>
+              سلام، من مریم قدیری هستم.
+            </h3>
+
+            <p>
+              من علاقه‌مند به توسعه فرانت‌اند و طراحی رابط کاربری هستم.
+              از تبدیل ایده‌ها به صفحات وب زیبا، تعاملی و کاربرپسند لذت می‌برم.
+              در مسیر یادگیری و پیشرفت مداوم قرار دارم و با ساخت پروژه‌های عملی،
+              تلاش می‌کنم مهارت‌های خود را توسعه دهم و تجربه‌های دیجیتال
+              بهتری خلق کنم.
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
+
 
     <!-- SKILLS -->
     <section id="skills" class="section skills-section">
+
       <div class="container">
+
         <div class="section-heading">
-          <span class="section-kicker">ابزارهای من</span>
-          <h2>مهارت‌های <span>من</span></h2>
-          <p>چیزهایی که یاد گرفته‌ام و در پروژه‌ها استفاده می‌کنم.</p>
+
+          <span class="section-kicker">
+            تخصص‌ها و ابزارها
+          </span>
+
+          <h2>
+            مهارت‌های <span>من</span>
+          </h2>
+
+          <p>
+            فناوری‌هایی که با آن‌ها رابط‌های کاربری وب را طراحی و توسعه می‌دهم.
+          </p>
+
         </div>
+
+
         <div class="row g-4">
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML</h3><p>ساختاردهی اصولی و معنایی صفحات وب.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon css-icon">3</div><h3>CSS</h3><p>استایل‌دهی، چیدمان و طراحی واکنش‌گرا.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>تعامل و پویاسازی صفحات وب.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon bs-icon">B</div><h3>Bootstrap</h3><p>ساخت سریع رابط‌های واکنش‌گرا.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
+
+          <!-- HTML -->
+          <div class="col-sm-6 col-lg-3">
+
+            <article class="skill-card">
+
+              <div class="skill-icon html-icon">
+                5
+              </div>
+
+              <h3>HTML</h3>
+
+              <p>
+                ساختاردهی اصولی و معنایی صفحات وب.
+              </p>
+
+              <span class="skill-level">
+                در حال یادگیری و تمرین
+              </span>
+
+            </article>
+
+          </div>
+
+
+          <!-- CSS -->
+          <div class="col-sm-6 col-lg-3">
+
+            <article class="skill-card">
+
+              <div class="skill-icon css-icon">
+                3
+              </div>
+
+              <h3>CSS</h3>
+
+              <p>
+                استایل‌دهی، چیدمان و طراحی واکنش‌گرا.
+              </p>
+
+              <span class="skill-level">
+                در حال یادگیری و تمرین
+              </span>
+
+            </article>
+
+          </div>
+
+
+          <!-- JAVASCRIPT -->
+          <div class="col-sm-6 col-lg-3">
+
+            <article class="skill-card">
+
+              <div class="skill-icon js-icon">
+                JS
+              </div>
+
+              <h3>JavaScript</h3>
+
+              <p>
+                تعامل و پویاسازی صفحات وب.
+              </p>
+
+              <span class="skill-level">
+                در حال یادگیری و تمرین
+              </span>
+
+            </article>
+
+          </div>
+
+
+          <!-- BOOTSTRAP -->
+          <div class="col-sm-6 col-lg-3">
+
+            <article class="skill-card">
+
+              <div class="skill-icon bs-icon">
+                B
+              </div>
+
+              <h3>Bootstrap</h3>
+
+              <p>
+                ساخت سریع رابط‌های واکنش‌گرا.
+              </p>
+
+              <span class="skill-level">
+                در حال یادگیری و تمرین
+              </span>
+
+            </article>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    
-<!-- Certifications Section -->
-<section id="certifications" class="certifications">
-    <div class="container">
 
-        <h2 class="section-title">گواهینامه‌های من</h2>
-        <p class="section-subtitle">
-            مدارک و مهارت‌های فنی و حرفه‌ای من
-        </p>
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="certifications">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            دستاوردهای آموزشی
+          </span>
+
+          <h2>
+            گواهینامه‌های <span>من</span>
+          </h2>
+
+          <p>
+            گواهینامه‌های آموزشی و مهارت‌های تخصصی من
+            در حوزه فناوری و طراحی.
+          </p>
+
+        </div>
+
 
         <div class="certifications-grid">
 
-            <div class="cert-card" onclick="showCertificate('HTML', 'HTML', 'آشنایی با ساختار صفحات وب و HTML5')">
-                <div class="cert-icon html">5</div>
-                <h3>HTML</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+
+          <!-- HTML -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('HTML', 'HTML', 'آشنایی با ساختار صفحات وب و HTML5')">
+
+            <div class="cert-icon html">
+              5
             </div>
 
-            <div class="cert-card" onclick="showCertificate('CSS', 'CSS', 'آشنایی با طراحی و استایل‌دهی صفحات وب با CSS3')">
-                <div class="cert-icon css">3</div>
-                <h3>CSS</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+            <h3>HTML</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
+
+
+          <!-- CSS -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('CSS', 'CSS', 'آشنایی با طراحی و استایل‌دهی صفحات وب با CSS3')">
+
+            <div class="cert-icon css">
+              3
             </div>
 
-            <div class="cert-card" onclick="showCertificate('JavaScript', 'JavaScript', 'آشنایی با برنامه‌نویسی تعاملی وب با JavaScript')">
-                <div class="cert-icon js">JS</div>
-                <h3>JavaScript</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+            <h3>CSS</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
+
+
+          <!-- JAVASCRIPT -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('JavaScript', 'JavaScript', 'آشنایی با برنامه‌نویسی تعاملی وب با JavaScript')">
+
+            <div class="cert-icon js">
+              JS
             </div>
 
-            <div class="cert-card" onclick="showCertificate('WordPress', 'WordPress', 'آشنایی با طراحی و مدیریت وب‌سایت با وردپرس')">
-                <div class="cert-icon wp">W</div>
-                <h3>WordPress</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+            <h3>JavaScript</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
+
+
+          <!-- WORDPRESS -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('WordPress', 'WordPress', 'آشنایی با طراحی و مدیریت وب‌سایت با وردپرس')">
+
+            <div class="cert-icon wp">
+              W
             </div>
 
-            <div class="cert-card" onclick="showCertificate('Photoshop', 'Photoshop', 'آشنایی با طراحی گرافیکی و ویرایش تصاویر')">
-                <div class="cert-icon ps">Ps</div>
-                <h3>Photoshop</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+            <h3>WordPress</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
+
+
+          <!-- PHOTOSHOP -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('Photoshop', 'Photoshop', 'آشنایی با طراحی گرافیکی و ویرایش تصاویر')">
+
+            <div class="cert-icon ps">
+              Ps
             </div>
 
-            <div class="cert-card" onclick="showCertificate('Python', 'Python', 'آشنایی با مبانی برنامه‌نویسی پایتون')">
-                <div class="cert-icon python">Py</div>
-                <h3>Python</h3>
-                <p>Certificate</p>
-                <span>مشاهده جزئیات ↗</span>
+            <h3>Photoshop</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
+
+
+          <!-- PYTHON -->
+          <button type="button" class="cert-card"
+            onclick="showCertificate('Python', 'Python', 'آشنایی با مبانی برنامه‌نویسی پایتون')">
+
+            <div class="cert-icon python">
+              Py
             </div>
+
+            <h3>Python</h3>
+
+            <p>Certificate</p>
+
+            <span>مشاهده مهارت ↗</span>
+
+          </button>
 
         </div>
-    </div>
-</section>
 
-<!-- Certificate Modal -->
-<div id="certificate-modal" class="certificate-modal">
-    <div class="certificate-modal-content">
-        <button class="close-modal" onclick="closeCertificate()">×</button>
+      </div>
+
+    </section>
+
+
+    <!-- CERTIFICATE MODAL -->
+    <div id="certificate-modal" class="certificate-modal"
+      role="dialog" aria-modal="true"
+      aria-labelledby="modal-title">
+
+      <div class="certificate-modal-content">
+
+        <button type="button" class="close-modal"
+          onclick="closeCertificate()"
+          aria-label="بستن پنجره">
+          ×
+        </button>
+
         <div id="modal-icon" class="cert-icon"></div>
+
         <h2 id="modal-title"></h2>
-        <span class="modal-label">گواهینامه فنی و حرفه‌ای</span>
+
+        <span class="modal-label">
+          گواهینامه فنی و حرفه‌ای
+        </span>
+
         <p id="modal-description"></p>
-        <button class="modal-btn" onclick="closeCertificate()">بستن</button>
-    </div>
-</div>
 
-    
-<!-- PROJECTS -->
-<section id="projects" class="section projects-section">
-  <div class="container">
+        <button type="button" class="modal-btn"
+          onclick="closeCertificate()">
+          بستن
+        </button>
 
-    <div class="section-heading">
-      <span class="section-kicker">چیزهایی که ساخته‌ام</span>
-      <h2>پروژه‌های <span>من</span></h2>
-      <p>برخی از تمرین‌ها و پروژه‌های من در مسیر یادگیری توسعه فرانت‌اند.</p>
-    </div>
-
-    <div class="row g-4 justify-content-center">
-
-      <!-- Project Two -->
-      <div class="col-md-6 col-lg-5">
-        <article class="project-card">
-
-          <div class="project-preview project-two-preview">
-            <div class="preview-window">
-              <span></span><span></span><span></span>
-              <strong>Project Two</strong>
-              <small>My Web Project</small>
-              <div class="preview-lines"></div>
-            </div>
-          </div>
-
-          <div class="project-content">
-
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-
-            <h3>Project Two</h3>
-
-            <p>یکی از پروژه‌های من در مسیر یادگیری طراحی و توسعه صفحات وب.</p>
-
-            <div class="project-buttons">
-              <a href="https://maryam-ghadiri.github.io/project-two/"
-                 target="_blank" rel="noopener noreferrer"
-                 class="project-link">
-                 Live Demo ↗
-              </a>
-
-              <a href="https://github.com/maryam-ghadiri/project-two"
-                 target="_blank" rel="noopener noreferrer"
-                 class="project-link">
-                 Source Code ↗
-              </a>
-            </div>
-
-          </div>
-        </article>
-      </div>
-
-      <!-- Site One -->
-      <div class="col-md-6 col-lg-5">
-        <article class="project-card">
-
-          <div class="project-preview site-one-preview">
-            <div class="preview-window">
-              <span></span><span></span><span></span>
-              <strong>Site One</strong>
-              <small>My Web Project</small>
-              <div class="preview-lines"></div>
-            </div>
-          </div>
-
-          <div class="project-content">
-
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-
-            <h3>Site One</h3>
-
-            <p>یک وب‌سایت دیگر که برای تمرین و توسعه مهارت‌های فرانت‌اند ساخته‌ام.</p>
-
-            <div class="project-buttons">
-              <a href="https://maryam-ghadiri.github.io/site_one/"
-                 target="_blank" rel="noopener noreferrer"
-                 class="project-link">
-                 Live Demo ↗
-              </a>
-
-              <a href="https://github.com/maryam-ghadiri/site_one"
-                 target="_blank" rel="noopener noreferrer"
-                 class="project-link">
-                 Source Code ↗
-              </a>
-            </div>
-
-          </div>
-        </article>
       </div>
 
     </div>
-  </div>
-</section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            نمونه‌کارهای من
+          </span>
+
+          <h2>
+            پروژه‌های <span>من</span>
+          </h2>
+
+          <p>
+            مجموعه‌ای از پروژه‌های عملی من
+            در مسیر یادگیری و توسعه فرانت‌اند.
+          </p>
+
+        </div>
+
+
+        <div class="row g-4 justify-content-center">
+
+
+          <!-- PROJECT TWO -->
+          <div class="col-md-6 col-lg-5">
+
+            <article class="project-card">
+
+              <div class="project-preview project-two-preview">
+
+                <div class="preview-window">
+
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+                  <strong>Project Two</strong>
+
+                  <small>My Web Project</small>
+
+                  <div class="preview-lines"></div>
+
+                </div>
+
+              </div>
+
+
+              <div class="project-content">
+
+                <div class="project-tags">
+
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+
+                </div>
+
+                <h3>Project Two</h3>
+
+                <p>
+                  یک پروژه وب با تمرکز بر طراحی رابط کاربری،
+                  ساختار صفحات و تعاملات وب.
+                </p>
+
+
+                <div class="project-buttons">
+
+                  <a href="https://maryam-ghadiri.github.io/project-two/"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">
+
+                    Live Demo ↗
+
+                  </a>
+
+                  <a href="https://github.com/maryam-ghadiri/project-two"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">
+
+                    Source Code ↗
+
+                  </a>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <!-- SITE ONE -->
+          <div class="col-md-6 col-lg-5">
+
+            <article class="project-card">
+
+              <div class="project-preview site-one-preview">
+
+                <div class="preview-window">
+
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+                  <strong>Site One</strong>
+
+                  <small>My Web Project</small>
+
+                  <div class="preview-lines"></div>
+
+                </div>
+
+              </div>
+
+
+              <div class="project-content">
+
+                <div class="project-tags">
+
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+
+                </div>
+
+                <h3>Site One</h3>
+
+                <p>
+                  یک تجربه عملی دیگر در طراحی و توسعه
+                  صفحات وب با فناوری‌های فرانت‌اند.
+                </p>
+
+
+                <div class="project-buttons">
+
+                  <a href="https://maryam-ghadiri.github.io/site_one/"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">
+
+                    Live Demo ↗
+
+                  </a>
+
+                  <a href="https://github.com/maryam-ghadiri/site_one"
+                    target="_blank" rel="noopener noreferrer"
+                    class="project-link">
+
+                    Source Code ↗
+
+                  </a>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
 
 
     <!-- CONTACT -->
     <section id="contact" class="section contact-section">
+
       <div class="container">
+
         <div class="contact-panel">
-          <span class="section-kicker">راه‌های ارتباطی</span>
-          <h2>با من در <span>ارتباط باش</span></h2>
-          <p>برای گفت‌وگو درباره فرصت‌های همکاری یا پروژه‌ها، از راه‌های زیر با من در تماس باش.</p>
+
+          <span class="section-kicker">
+            Let's Connect
+          </span>
+
+          <h2>
+            بیایید با هم <span>در ارتباط باشیم.</span>
+          </h2>
+
+          <p>
+            برای فرصت‌های همکاری، پروژه‌های جدید یا گفت‌وگو درباره توسعه وب،
+            خوشحال می‌شوم با من در ارتباط باشید.
+          </p>
+
+
           <div class="contact-links">
-            <a href="mailto:ghadirimaryam722@gmail.com" class="contact-link"><span class="contact-symbol">✉</span><span><small>ایمیل</small><b>ghadirimaryam722@gmail.com</b></span><span class="contact-arrow">↗</span></a>
-            <a href="https://github.com/maryam-ghadiri" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-symbol">⌘</span><span><small>گیت‌هاب</small><b>maryam-ghadiri</b></span><span class="contact-arrow">↗</span></a>
+
+
+            <!-- EMAIL -->
+            <a href="mailto:ghadirimaryam722@gmail.com"
+              class="contact-link">
+
+              <span class="contact-symbol">
+                ✉
+              </span>
+
+              <span>
+                <small>ایمیل</small>
+                <b>ghadirimaryam722@gmail.com</b>
+              </span>
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
+
+            <!-- GITHUB -->
+            <a href="https://github.com/maryam-ghadiri"
+              target="_blank" rel="noopener noreferrer"
+              class="contact-link">
+
+              <span class="contact-symbol">
+                ⌘
+              </span>
+
+              <span>
+                <small>گیت‌هاب</small>
+                <b>maryam-ghadiri</b>
+              </span>
+
+              <span class="contact-arrow">
+                ↗
+              </span>
+
+            </a>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="container"><p>Designed &amp; Built by <span>Maryam Ghadiri</span> <span class="copyright">© 2026</span></p><a href="#home">بازگشت به بالا ↑</a></div>
+
+    <div class="container">
+
+      <p>
+        طراحی و توسعه توسط
+        <span>Maryam Ghadiri</span>
+        <span class="copyright">© 2026</span>
+      </p>
+
+      <a href="#home">
+        بازگشت به بالا ↑
+      </a>
+
+    </div>
+
   </footer>
 
+
+  <!-- Bootstrap JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
   <script src="script.js"></script>
+
 </body>
 </html>
