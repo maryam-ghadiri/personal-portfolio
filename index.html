@@ -1,158 +1,102 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fff9f2">
-  <meta name="description" content="وب‌سایت شخصی مریم قدیری، توسعه‌دهنده فرانت‌اند">
-  <title>Maryam Ghadiri | Front-End Developer</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!-- PROJECTS -->
+<section id="projects" class="section projects-section">
+  <div class="container">
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg modern-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="#home" aria-label="Maryam home">Maryam<span>.</span></a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="باز کردن منو">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto nav-menu" id="navMenu">
-          <span class="nav-indicator" aria-hidden="true"></span>
-          <li class="nav-item"><a class="nav-link active" href="#home">خانه</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">درباره من</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">مهارت‌ها</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">پروژه‌ها</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">تماس</a></li>
-        </ul>
-      </div>
+    <div class="section-heading">
+      <span class="section-kicker">چیزهایی که ساخته‌ام</span>
+      <h2>پروژه‌های <span>من</span></h2>
+      <p>برخی از تمرین‌ها و پروژه‌های من در مسیر یادگیری توسعه فرانت‌اند.</p>
     </div>
-  </nav>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="container">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-7 hero-content">
-            <span class="hero-label">HELLO, I'M MARYAM <span aria-hidden="true">👋</span></span>
-            <h1>خلاقیت در کد،<br><span>زیبایی در طراحی.</span></h1>
-            <p class="hero-description">
-              توسعه‌دهنده فرانت‌اند و علاقه‌مند به ساخت تجربه‌های دیجیتال
-              زیبا، تعاملی و کاربردی.
-            </p>
-            <div class="hero-buttons">
-              <a href="#projects" class="btn btn-primary-custom">مشاهده پروژه‌ها <span aria-hidden="true">↙</span></a>
-              <a href="#contact" class="btn btn-outline-custom">ارتباط با من</a>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Project Two -->
+      <div class="col-md-6 col-lg-5">
+        <article class="project-card">
+
+          <div class="project-preview project-two-preview">
+            <div class="preview-window">
+              <span></span><span></span><span></span>
+              <strong>Project Two</strong>
+              <small>My Web Project</small>
+              <div class="preview-lines"></div>
             </div>
           </div>
 
-          <div class="col-lg-5">
-            <div class="hero-art" aria-label="تصویرسازی کدنویسی">
-              <div class="art-orbit orbit-one"></div>
-              <div class="art-orbit orbit-two"></div>
-              <div class="main-shape"><span>&lt;/&gt;</span></div>
-              <div class="floating-card card-one">HTML <b>5</b></div>
-              <div class="floating-card card-two">CSS <b>✨</b></div>
-              <div class="floating-card card-three">JavaScript <b>JS</b></div>
-              <div class="floating-card card-four">Bootstrap <b>B</b></div>
+          <div class="project-content">
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <h3>Project Two</h3>
+
+            <p>یکی از پروژه‌های من در مسیر یادگیری طراحی و توسعه صفحات وب.</p>
+
+            <div class="project-buttons">
+              <a href="https://maryam-ghadiri.github.io/project-two/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                 Live Demo ↗
+              </a>
+
+              <a href="https://github.com/maryam-ghadiri/project-two"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                 Source Code ↗
+              </a>
+            </div>
+
+          </div>
+        </article>
+      </div>
+
+      <!-- Site One -->
+      <div class="col-md-6 col-lg-5">
+        <article class="project-card">
+
+          <div class="project-preview site-one-preview">
+            <div class="preview-window">
+              <span></span><span></span><span></span>
+              <strong>Site One</strong>
+              <small>My Web Project</small>
+              <div class="preview-lines"></div>
             </div>
           </div>
-        </div>
-      </div>
-      <a class="scroll-cue" href="#about" aria-label="رفتن به بخش درباره من">↓</a>
-    </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about-section">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-kicker">یک معرفی کوتاه</span>
-          <h2>درباره <span>من</span></h2>
-          <p>علاقه‌مند به یادگیری، ساختن و تبدیل ایده‌ها به تجربه‌های وب.</p>
-        </div>
-        <div class="about-card">
-          <div class="about-mark" aria-hidden="true">M.</div>
-          <div>
-            <h3>سلام، من مریم هستم.</h3>
-            <p>من در مسیر یادگیری توسعه فرانت‌اند هستم و از طراحی رابط‌های کاربری زیبا و ساخت صفحات وب لذت می‌برم. هدفم این است که با تمرین و ساخت پروژه‌های واقعی، تجربه‌های دیجیتال ساده، جذاب و کاربردی خلق کنم.</p>
+          <div class="project-content">
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <h3>Site One</h3>
+
+            <p>یک وب‌سایت دیگر که برای تمرین و توسعه مهارت‌های فرانت‌اند ساخته‌ام.</p>
+
+            <div class="project-buttons">
+              <a href="https://maryam-ghadiri.github.io/site_one/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                 Live Demo ↗
+              </a>
+
+              <a href="https://github.com/maryam-ghadiri/site_one"
+                 target="_blank" rel="noopener noreferrer"
+                 class="project-link">
+                 Source Code ↗
+              </a>
+            </div>
+
           </div>
-        </div>
+        </article>
       </div>
-    </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section skills-section">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-kicker">ابزارهای من</span>
-          <h2>مهارت‌های <span>من</span></h2>
-          <p>چیزهایی که یاد گرفته‌ام و در پروژه‌ها استفاده می‌کنم.</p>
-        </div>
-        <div class="row g-4">
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML</h3><p>ساختاردهی اصولی و معنایی صفحات وب.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon css-icon">3</div><h3>CSS</h3><p>استایل‌دهی، چیدمان و طراحی واکنش‌گرا.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>تعامل و پویاسازی صفحات وب.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-          <div class="col-sm-6 col-lg-3"><article class="skill-card"><div class="skill-icon bs-icon">B</div><h3>Bootstrap</h3><p>ساخت سریع رابط‌های واکنش‌گرا.</p><span class="skill-level">در حال یادگیری و تمرین</span></article></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section projects-section">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-kicker">چیزهایی که ساخته‌ام</span>
-          <h2>پروژه‌های <span>من</span></h2>
-          <p>این بخش با اضافه شدن پروژه‌های جدید به‌روز می‌شود.</p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <article class="project-card">
-              <div class="project-preview"><div class="preview-window"><span></span><span></span><span></span><strong>Maryam<span>.</span></strong><small>My Portfolio</small><div class="preview-lines"></div></div></div>
-              <div class="project-content">
-                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
-                <h3>وب‌سایت رزومه شخصی</h3>
-                <p>طراحی و پیاده‌سازی یک وب‌سایت شخصی برای معرفی مهارت‌ها، پروژه‌ها و راه‌های ارتباطی.</p>
-                <a class="project-link" href="https://github.com/maryam-ghadiri/personal-portfolio" target="_blank" rel="noopener noreferrer">مشاهده کد در GitHub <span aria-hidden="true">↗</span></a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-      <div class="container">
-        <div class="contact-panel">
-          <span class="section-kicker">راه‌های ارتباطی</span>
-          <h2>با من در <span>ارتباط باش</span></h2>
-          <p>برای گفت‌وگو درباره فرصت‌های همکاری یا پروژه‌ها، از راه‌های زیر با من در تماس باش.</p>
-          <div class="contact-links">
-            <a href="mailto:ghadirimaryam722@gmail.com" class="contact-link"><span class="contact-symbol">✉</span><span><small>ایمیل</small><b>ghadirimaryam722@gmail.com</b></span><span class="contact-arrow">↗</span></a>
-            <a href="https://github.com/maryam-ghadiri" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-symbol">⌘</span><span><small>گیت‌هاب</small><b>maryam-ghadiri</b></span><span class="contact-arrow">↗</span></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container"><p>Designed &amp; Built by <span>Maryam Ghadiri</span> <span class="copyright">© 2026</span></p><a href="#home">بازگشت به بالا ↑</a></div>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+    </div>
+  </div>
+</section>
