@@ -83,3 +83,22 @@ if (navMenu && indicator && navLinks.length) {
     });
 
 }
+
+function showCertificate(title, icon, description) {
+    document.getElementById("modal-title").textContent = title;
+    document.getElementById("modal-description").textContent = description;
+    document.getElementById("modal-icon").textContent = icon;
+
+    document.getElementById("certificate-modal").classList.add("active");
+}
+
+function closeCertificate() {
+    document.getElementById("certificate-modal").classList.remove("active");
+}
+
+document.getElementById("certificate-modal").addEventListener("click", function(event) {
+    if (event.target === this) {
+        closeCertificate();
+    }
+});
+
