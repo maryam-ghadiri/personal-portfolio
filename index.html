@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,76 +9,92 @@
     <title>Maryam Ghadiri | Front-End Developer</title>
 
     <!-- Bootstrap -->
-   <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <title>Maryam Ghadiri | Portfolio</title>
 </head>
 
 <body>
 
-    <!-- Navbar -->
-  
-<!-- Navbar -->
+    <!-- ================= NAVBAR ================= -->
 
+    <nav class="navbar navbar-expand-lg modern-navbar">
+        <div class="container">
 
-<nav class="navbar navbar-expand-lg modern-navbar">
-    <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#home">
+                Maryam<span>.</span>
+            </a>
 
-        <a class="navbar-brand" href="#home">
-            Maryam<span>.</span>
-        </a>
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="باز کردن منو">
 
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-            <ul class="navbar-nav mx-auto nav-menu">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">
-                        <span>خانه</span>
-                    </a>
-                </li>
+                <ul class="navbar-nav mx-auto nav-menu">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">
-                        <span>درباره من</span>
-                    </a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <span>خانه</span>
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">
-                        <span>مهارت‌ها</span>
-                    </a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <span>درباره من</span>
+                        </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">
-                        <span>پروژه‌ها</span>
-                    </a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <span>مهارت‌ها</span>
+                        </a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            <span>پروژه‌ها</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <span>تماس</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
 
+    <!-- ================= HERO ================= -->
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
+
         <div class="container">
             <div class="row align-items-center">
 
+                <!-- Hero Content -->
                 <div class="col-lg-7">
-                    <span class="hero-label">HELLO, I'M MARYAM 👋</span>
+
+                    <span class="hero-label">
+                        HELLO, I'M MARYAM 👋
+                    </span>
 
                     <h1>
                         خلاقیت در کد،
@@ -90,75 +107,147 @@ href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.c
                     </p>
 
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary-custom">
+
+                        <a href="#projects"
+                           class="btn btn-primary-custom">
                             مشاهده پروژه‌ها
                         </a>
 
-                        <a href="#contact" class="btn btn-outline-custom">
+                        <a href="#contact"
+                           class="btn btn-outline-custom">
                             ارتباط با من
                         </a>
+
                     </div>
+
                 </div>
 
+                <!-- Hero Illustration -->
                 <div class="col-lg-5">
+
                     <div class="hero-art">
-                        <div class="floating-card card-one">HTML</div>
-                        <div class="floating-card card-two">CSS ✨</div>
+
+                        <div class="floating-card card-one">
+                            HTML
+                        </div>
+
+                        <div class="floating-card card-two">
+                            CSS ✨
+                        </div>
 
                         <div class="main-shape">
                             <span>&lt;/&gt;</span>
                         </div>
 
-                        <div class="floating-card card-three">JavaScript</div>
-                        <div class="floating-card card-four">Bootstrap</div>
+                        <div class="floating-card card-three">
+                            JavaScript
+                        </div>
+
+                        <div class="floating-card card-four">
+                            Bootstrap
+                        </div>
+
                     </div>
+
                 </div>
 
             </div>
         </div>
+
     </section>
 
-    <!-- About -->
+
+    <!-- ================= ABOUT ================= -->
+
     <section id="about" class="section">
+
         <div class="container">
-            <h2>درباره <span>من</span></h2>
-            <p>اینجا قراره داستان من و علاقه‌ام به توسعه وب رو بنویسیم.</p>
+
+            <h2>
+                درباره <span>من</span>
+            </h2>
+
+            <p>
+                اینجا قراره داستان من و علاقه‌ام به توسعه وب رو بنویسیم.
+            </p>
+
         </div>
+
     </section>
 
-    <!-- Skills -->
+
+    <!-- ================= SKILLS ================= -->
+
     <section id="skills" class="section">
+
         <div class="container">
-            <h2>مهارت‌های <span>من</span></h2>
-            <p>HTML · CSS · JavaScript · Bootstrap</p>
+
+            <h2>
+                مهارت‌های <span>من</span>
+            </h2>
+
+            <p>
+                HTML · CSS · JavaScript · Bootstrap
+            </p>
+
         </div>
+
     </section>
 
-    <!-- Projects -->
+
+    <!-- ================= PROJECTS ================= -->
+
     <section id="projects" class="section">
+
         <div class="container">
-            <h2>پروژه‌های <span>من</span></h2>
-            <p>به‌زودی پروژه‌های من اینجا نمایش داده می‌شوند.</p>
+
+            <h2>
+                پروژه‌های <span>من</span>
+            </h2>
+
+            <p>
+                به‌زودی پروژه‌های من اینجا نمایش داده می‌شوند.
+            </p>
+
         </div>
+
     </section>
 
-    <!-- Contact -->
+
+    <!-- ================= CONTACT ================= -->
+
     <section id="contact" class="section">
+
         <div class="container">
-            <h2>با من در <span>ارتباط باش</span></h2>
+
+            <h2>
+                با من در <span>ارتباط باش</span>
+            </h2>
+
             <a href="mailto:ghadirimaryam722@gmail.com">
                 ghadirimaryam722@gmail.com
             </a>
+
         </div>
+
     </section>
 
-    <!-- Footer -->
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
-        <p>Designed & Built by Maryam Ghadiri © 2026</p>
+
+        <p>
+            Designed & Built by Maryam Ghadiri © 2026
+        </p>
+
     </footer>
 
+
+    <!-- ================= SCRIPTS ================= -->
+
     <!-- Bootstrap JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS -->
     <script src="script.js"></script>
