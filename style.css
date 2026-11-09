@@ -275,4 +275,159 @@ h1,h2,h3,p { margin-top: 0; }
 }
 
 
+/* Certifications */
+.certifications {
+    padding: 100px 8%;
+    background: #f8f9fc;
+    direction: rtl;
+}
+
+.certifications .section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.cert-card {
+    background: #fff;
+    padding: 35px 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #eee;
+    transition: .3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+    border-color: #6c63ff;
+}
+
+.cert-card h3 {
+    margin: 20px 0 8px;
+    color: #222;
+}
+
+.cert-card p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.cert-card span {
+    color: #6c63ff;
+    font-size: 13px;
+}
+
+.cert-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.html { background: #fff0e8; color: #e44d26; }
+.css { background: #e8f1ff; color: #264de4; }
+.js { background: #fff8d9; color: #b59a00; }
+.wp { background: #e8f7ff; color: #21759b; }
+.ps { background: #e5f4ff; color: #001e36; }
+.python { background: #e8f0ff; color: #306998; }
+
+/* Modal */
+.certificate-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.65);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.certificate-modal.active {
+    display: flex;
+}
+
+.certificate-modal-content {
+    background: white;
+    padding: 45px 30px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    animation: modalShow .3s ease;
+}
+
+.close-modal {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    background: none;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #777;
+}
+
+.modal-label {
+    display: inline-block;
+    background: #f0edff;
+    color: #6c63ff;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.certificate-modal-content p {
+    color: #666;
+    line-height: 2;
+    margin: 15px 0 25px;
+}
+
+.modal-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes modalShow {
+    from { opacity: 0; transform: scale(.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 900px) {
+    .certifications-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
