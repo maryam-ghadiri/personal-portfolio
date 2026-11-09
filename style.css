@@ -1,7 +1,3 @@
-
-/* General Styles */
-/* @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap'); */
-
 :root {
     --primary: #5b4bff;
     --secondary: #ff6b6b;
@@ -239,3 +235,68 @@ footer {
         padding: 60px 0;
     }
 }
+
+/* Creative Navbar */
+
+.custom-navbar {
+    padding: 22px 0;
+    background: var(--light);
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.custom-navbar .navbar-brand span {
+    color: var(--primary);
+}
+
+.custom-navbar .nav-link {
+    color: var(--dark);
+    font-size: 15px;
+    padding: 10px 16px;
+    transition: 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.contact-btn {
+    text-decoration: none;
+    background: var(--primary);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: var(--dark);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .custom-navbar .navbar-collapse {
+        padding-top: 20px;
+    }
+
+    .custom-navbar .nav-link {
+        padding: 12px 0;
+    }
+
+    .contact-btn {
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
