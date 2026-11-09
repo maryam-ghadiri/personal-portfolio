@@ -109,6 +109,76 @@
     </section>
 
     
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+
+        <h2 class="section-title">گواهینامه‌های من</h2>
+        <p class="section-subtitle">
+            مدارک و مهارت‌های فنی و حرفه‌ای من
+        </p>
+
+        <div class="certifications-grid">
+
+            <div class="cert-card" onclick="showCertificate('HTML', 'HTML', 'آشنایی با ساختار صفحات وب و HTML5')">
+                <div class="cert-icon html">5</div>
+                <h3>HTML</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+            <div class="cert-card" onclick="showCertificate('CSS', 'CSS', 'آشنایی با طراحی و استایل‌دهی صفحات وب با CSS3')">
+                <div class="cert-icon css">3</div>
+                <h3>CSS</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+            <div class="cert-card" onclick="showCertificate('JavaScript', 'JavaScript', 'آشنایی با برنامه‌نویسی تعاملی وب با JavaScript')">
+                <div class="cert-icon js">JS</div>
+                <h3>JavaScript</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+            <div class="cert-card" onclick="showCertificate('WordPress', 'WordPress', 'آشنایی با طراحی و مدیریت وب‌سایت با وردپرس')">
+                <div class="cert-icon wp">W</div>
+                <h3>WordPress</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+            <div class="cert-card" onclick="showCertificate('Photoshop', 'Photoshop', 'آشنایی با طراحی گرافیکی و ویرایش تصاویر')">
+                <div class="cert-icon ps">Ps</div>
+                <h3>Photoshop</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+            <div class="cert-card" onclick="showCertificate('Python', 'Python', 'آشنایی با مبانی برنامه‌نویسی پایتون')">
+                <div class="cert-icon python">Py</div>
+                <h3>Python</h3>
+                <p>Certificate</p>
+                <span>مشاهده جزئیات ↗</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Certificate Modal -->
+<div id="certificate-modal" class="certificate-modal">
+    <div class="certificate-modal-content">
+        <button class="close-modal" onclick="closeCertificate()">×</button>
+        <div id="modal-icon" class="cert-icon"></div>
+        <h2 id="modal-title"></h2>
+        <span class="modal-label">گواهینامه فنی و حرفه‌ای</span>
+        <p id="modal-description"></p>
+        <button class="modal-btn" onclick="closeCertificate()">بستن</button>
+    </div>
+</div>
+
+    
 <!-- PROJECTS -->
 <section id="projects" class="section projects-section">
   <div class="container">
