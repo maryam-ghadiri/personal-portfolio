@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     background-color: var(--light);
     color: var(--dark);
 }
